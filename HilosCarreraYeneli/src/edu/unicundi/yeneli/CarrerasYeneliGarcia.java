@@ -66,12 +66,6 @@ public class CarrerasYeneliGarcia {
         H8.start();
         H9.start();
 
-//        try {
-//            H7.sleep(10);
-//
-//        } catch (InterruptedException ex) {
-//            Logger.getLogger(CarrerasYeneliGarcia.class.getName()).log(Level.SEVERE, null, ex);
-//        }
 
         //Ciclo que se asegura de que los 3 ultimos participantes sigan vivos
         while (H3.isAlive() && H6.isAlive() && H9.isAlive()) {
